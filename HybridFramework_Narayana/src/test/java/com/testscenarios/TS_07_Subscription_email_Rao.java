@@ -45,8 +45,11 @@ public class TS_07_Subscription_email_Rao extends CommonFunctions {
 	// the subscriptiob button is not with in view so scrollable view code is required
 	    
 	   JavascriptExecutor js = (JavascriptExecutor) driver;
-	   js.executeScript("args[0].scrollIntoView();)",driver.findElement(loc.automation_Subscription_editbox));  
+	   js.executeScript("arguments[0].scrollIntoView();)",driver.findElement(loc.automation_Subscription_editbox));  
 	   
+	//   JavascriptExecutor js = (JavascriptExecutor) driver;
+	//	js.executeScript("arguments[0].scrollIntoView();", element);
+
 	 //  WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(2));
 	  // wait.until(ExpectedConditions.elementToBeClickable(By.id("subscribe_email")));
 	   

@@ -15,7 +15,7 @@ public class Locators {
 	
 	   // text box
 	//public final By automation_Subscription_editbox = By.id("subscribe_email");
-	  public final By automation_Subscription_editbox = By.xpath("input[@id=\"susbscribe_email\"]");
+	  public final By automation_Subscription_editbox = By.xpath("//input[@id=\"susbscribe_email\"]");
 	
 	//input[@id="susbscribe_email"]
 	
